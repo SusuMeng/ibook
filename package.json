@@ -1,0 +1,23 @@
+{
+  "name": "ibook",
+  "version": "1.0.0",
+  "description": "电子书自动化构建demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SusuMeng/ibook.git"
+  },
+  "keywords": [],
+  "author": "sumeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SusuMeng/ibook/issues"
+  },
+  "homepage": "https://github.com/SusuMeng/ibook#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
