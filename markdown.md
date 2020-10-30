@@ -21,6 +21,7 @@
 #### 这是四级标题
 ##### 这是五级标题
 ###### 这是六级标题
+
 2. 使用`===`或者`---`
 例如：
 ```
@@ -29,6 +30,7 @@
 二级标题
 ---
 ```
+效果如下：
 一级标题
 ===
 二级标题
@@ -155,6 +157,7 @@ title 可加可不加，鼠标移到图片上时显示
 |-|---:|:---:|
 |苹果|2斤|6元|
 |梨|1斤|5元|
+
 ## 七、文字引用
 在被引用文字前加`>`进行引用。可有多个`>`，表示层级更深
 想跳出某一层嵌套，空一行再写
@@ -215,7 +218,7 @@ title 可加可不加，鼠标移到图片上时显示
 5. 子程序：`subroutine`
 例如：
 ```
-```flow
+flow
 st=>start: 开始
 op=>operation: My operation
 cond=>condition: Yes or No?
@@ -223,12 +226,10 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-&```
 
-注：&要去掉 此处为防止转义
 ```
 效果如下
-```flow
+flow
 st=>start: 开始
 op=>operation: My operation
 cond=>condition: Yes or No?
@@ -250,5 +251,5 @@ $$\sum_{i=1}^n a_i=0$$
 $$\sum_{i=1}^n a_i=0$$
 ## 十一、支持HTML标签
 ## 参考
-[Markdown 基本语法-简书](https://www.jianshu.com/p/191d1e21f7ed/)
+[Markdown基本语法-简书](https://www.jianshu.com/p/191d1e21f7ed/)
 [Markdown语法介绍（详细)](https://blog.csdn.net/afei__/article/details/80717153)
